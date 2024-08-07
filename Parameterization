@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="True" name ="suite">
+  <test name="Test">
+  <groups>	
+				<run>	
+   					 <include name="SmokeTest" />	
+        		</run>	
+       		</groups>
+  <parameter name="a" value="5"></parameter>
+  <parameter name="b" value="30"></parameter>
+    <classes>
+      <!--class name="runner.Sum"/-->
+      <!--class name="runner.Sub"/-->
+      <!--class name="runner.Multiplication"/-->
+      <!--class name="runner.EvenOrOdd"/-->
+      <class name="runner.Annotations"/>
+      <!class name="runner.AnnotationsWithSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

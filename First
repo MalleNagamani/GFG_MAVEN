@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="GFG_Maven.GFG_MAVEN.WindowHandles"/>
+      <class name="GFG_Maven.GFG_MAVEN.AuthenticatedPopUp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
